@@ -20,7 +20,7 @@ const Projects = () => {
               className="object-contain"
             />
             <div className="absolute bottom-0 left-0 w-full p-4 bg-black bg-opacity-50 text-white">
-              <p>Deputy's Dilemma: Wild West Whodunit - a thrilling detective game built using Next.js, Tailwind CSS, and TypeScript.</p>
+              <p>Deputy&apos;s Dilemma: Wild West Whodunit - a thrilling detective game built using Next.js, Tailwind CSS, and TypeScript.</p>
               <Link href="https://webd5015-project-cowboys.vercel.app/" legacyBehavior passHref>
                 <a className="text-yellow-400 underline" target="_blank" rel="noopener noreferrer">
                   Learn more
