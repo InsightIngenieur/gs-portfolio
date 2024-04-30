@@ -7,7 +7,10 @@ import React from "react";
 
 const Services = () => {
   return (
-    <div id="services" className="bg-[#121212] pt-[4rem] md:pt-[8rem] pb-[5rem]">
+    <div
+      id="services"
+      className="bg-[#121212] pt-[4rem] md:pt-[8rem] pb-[5rem]"
+    >
       <p className="heading">
         My <span className="text-yellow-400">Services</span>
       </p>
@@ -19,7 +22,10 @@ const Services = () => {
               Frontend
             </h1>
             <p className="text-[15px] text-[#d3d2d2] font-normal">
-              Specializing in creating responsive and dynamic user interfaces, I leverage technologies like HTML, CSS, JavaScript, React, and Next.js. My approach ensures seamless, aesthetically pleasing, and functional web experiences that engage and convert.
+              Specializing in creating responsive and dynamic user interfaces, I
+              leverage technologies like HTML, CSS, JavaScript, React, and
+              Next.js. My approach ensures seamless, aesthetically pleasing, and
+              functional web experiences that engage and convert.
             </p>
           </div>
         </div>
@@ -30,9 +36,13 @@ const Services = () => {
               Backend
             </h1>
             <p className="text-[15px] text-[#d3d2d2] font-normal">
-              <p className="text-[15px] text-[#d3d2d2] font-normal">
-                Proficient in building robust backend systems using the MERN stack (MongoDB, Express, React, Node.js), I ensure that applications are scalable, secure, and efficient. My expertise extends to working with both SQL and NoSQL databases, alongside implementing RESTful APIs.
-              </p>
+              <span className="text-[15px] text-[#d3d2d2] font-normal">
+                Proficient in building robust backend systems using the MERN
+                stack (MongoDB, Express, React, Node.js), I ensure that
+                applications are scalable, secure, and efficient. My expertise
+                extends to working with both SQL and NoSQL databases, alongside
+                implementing RESTful APIs.
+              </span>
             </p>
           </div>
         </div>
@@ -43,7 +53,11 @@ const Services = () => {
               Business Analysis
             </h1>
             <p className="text-[15px] text-[#d3d2d2] font-normal">
-              As a seasoned Business Analyst, I excel in transforming complex business requirements into actionable strategies and technical solutions. My expertise spans across requirements gathering, process improvement, and stakeholder management, ensuring alignment with business goals.
+              As a seasoned Business Analyst, I excel in transforming complex
+              business requirements into actionable strategies and technical
+              solutions. My expertise spans across requirements gathering,
+              process improvement, and stakeholder management, ensuring
+              alignment with business goals.
             </p>
           </div>
         </div>

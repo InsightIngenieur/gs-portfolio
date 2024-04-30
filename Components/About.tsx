@@ -1,17 +1,17 @@
+
 import React, { useState } from "react";
 import { ArrowDownTrayIcon, EyeIcon } from "@heroicons/react/20/solid";
 import Image from "next/image";
-import CvModal from "./CvModal"; // Ensure CvModal is imported
+import CvModal from "./CvModal";
 
 const About = () => {
   const [isCvVisible, setIsCvVisible] = useState(false);
-  const [actionType, setActionType] = useState<'view' | 'download'>('view'); // Track the action type
+  const [actionType, setActionType] = useState<string>('view');
 
-  const handleOpenModal = (type: 'view' | 'download') => {
-    setActionType(type); // Set the action type based on which button is clicked
-    setIsCvVisible(true); // Open the modal
+  const handleOpenModal = (type: string) => {
+    setActionType(type);
+    setIsCvVisible(true);
   };
-
   return (
     <div id="about" className="bg-[#121121] pb-[3rem] pt-[4rem] md:pt-[8rem]">
       <div className="grid grid-cols-1 md:grid-cols-2 w-[80%] mx-auto gap-[3rem] items-center">
@@ -44,7 +44,7 @@ const About = () => {
               <EyeIcon className="w-[1.6rem] h-[1.7rem] text-black" />
             </button>
           </div>
-          {isCvVisible && <CvModal isOpen={isCvVisible} onClose={() => setIsCvVisible(false)} actionType={actionType} />}
+          {isCvVisible && <CvModal isOpen={isCvVisible} onClose={() => setIsCvVisible(false)} actionType={actionType as "view" | "download"} />}
         </div>
         <div
           data-aos="fade-left"
