@@ -93,5 +93,5 @@ const ContactForm: React.FC<ContactFormProps> = ({ onClose }) => {
     );
 };
 
-export default ContactForm; 
+export default ContactForm;
 

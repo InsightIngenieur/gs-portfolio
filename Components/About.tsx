@@ -1,4 +1,3 @@
-
 import React, { useState } from "react";
 import { ArrowDownTrayIcon, EyeIcon } from "@heroicons/react/20/solid";
 import Image from "next/image";

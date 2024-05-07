@@ -20,14 +20,14 @@ const CvModal: React.FC<CvModalProps> = ({ isOpen, onClose, actionType }) => {
 
     // Function to open the CV in a new tab and close the modal
     const handleOpenCv = () => {
-        const url = "https://drive.google.com/file/d/1Mrez-aWV1IdSrN_y1mdsC-RRYY9U7cxk/view?usp=sharing";
+        const url = "https://drive.google.com/file/d/1O7a-mlVqTWhKvFdD4SV2xhW2D_sfgJRn/view?usp=sharing";
         window.open(url, "_blank");
         onClose(); // Close the modal after opening the link
     };
 
     // Function to download the CV and close the modal
     const handleDownloadCv = () => {
-        const url = "https://drive.google.com/uc?export=download&id=1Mrez-aWV1IdSrN_y1mdsC-RRYY9U7cxk";
+        const url = "https://drive.google.com/uc?export=download&id=1O7a-mlVqTWhKvFdD4SV2xhW2D_sfgJRn";
         window.open(url, "_blank");
         onClose(); // Close the modal after initiating the download
     };
