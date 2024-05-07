@@ -48,7 +48,7 @@ const Hero = () => {
           {/* Ensure Image component is always rendered */}
           <div className="w-full h-full relative">
             <Image
-              src="/images/u1.jpg"
+              src="/images/hero.png"
               alt="user"
               fill
               className="object-cover rounded-full"

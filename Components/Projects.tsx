@@ -30,24 +30,44 @@ const Projects = () => {
           </div>
         </div>
 
-        {/* Repeat similar structure for other projects, ensuring consistent image sizes */}
+        
+        {/* Current Project */}
         <div data-aos="fade-up" data-aos-delay="300">
           <div className="transform cursor-pointer hover:-translate-y-6 transition-all duration-200 relative w-[100%] h-[200px] md:h-[300px]">
             <Image
-              src="/images/p2.jpg"
-              alt="portfolio"
+              src="/images/zx.jpg"
+              alt="ZX Construction Management Web Portal"
               fill
               sizes="(max-width: 768px) 100vw, 500px"
               className="object-contain"
             />
+            <div className="absolute bottom-0 left-0 w-full p-4 bg-black bg-opacity-50 text-white">
+              <p>ZX Construction Management Web Portal: Spearheading the development of comprehensive web solutions, focusing on high-quality user interfaces and robust functionalities.</p>
+            </div>
           </div>
         </div>
-        {/* Additional project divs follow the same pattern as above */}
+
+        {/* Placeholder for Mobile App Project */}
+        <div data-aos="fade-up" data-aos-delay="600">
+          <div className="transform cursor-pointer hover:-translate-y-6 transition-all duration-200 relative w-[100%] h-[200px] md:h-[300px]">
+            <Image
+              src="/images/zxmobile.jpg" 
+              alt="ZX Mobile App"
+              fill
+              sizes="(max-width: 768px) 100vw, 500px"
+              className="object-contain"
+            />
+            <div className="absolute bottom-0 left-0 w-full p-4 bg-black bg-opacity-50 text-white">
+              <p>Mobile Application for ZX Construction: Enhancing business operations and user experience through a mobile platform developed using React Native and Expo.</p>
+            </div>
+          </div>
+        </div>
 
       </div>
     </div>
   );
 };
+
 
 export default Projects; 
 
